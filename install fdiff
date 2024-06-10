@@ -1,0 +1,13 @@
+1. pip install fdiff
+2. pip show fdiff 
+3. Add the path results in 2 to system environment Path.
+system environment > system variables > Path > New >
+C:\Users\username\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\fdiff\__pycache__
+
+4. fdiff --help
+
+If failed, try below resolutions.
+1. Add below value to Path
+C:\Users\username\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\Scripts
+
+2. Ensure close all system environment windows and cmd windows, then reopen new cmd window.
